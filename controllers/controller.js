@@ -219,7 +219,7 @@ module.exports = {
       }
 
       // Get the updated cart
-      const updated_cart = db.get(`${key}.cart`)
+      const updated_cart = db.get(`${key}.cart`).value()
       // Send the updated cart back to the client
       return res.status(200).send(updated_cart)
     } else {
