@@ -146,7 +146,6 @@
     }
   ],
   "e4cfeda5": {
-    "cart": [],
     "products": [
       {
         "id": 1,
@@ -291,7 +290,32 @@
         "price": 12,
         "image": "https://assets.bigcartel.com/product_images/166717411/waterbottle_copy.JPG?auto=format&fit=max&w=780",
         "company": "DevMountain"
+      },
+      {
+        "id": 17,
+        "name": "test",
+        "description": "test test",
+        "price": 100,
+        "image": "test",
+        "category": "test"
+      },
+      {
+        "id": 18,
+        "name": "test",
+        "description": "test test",
+        "price": 100,
+        "image": "test",
+        "category": "test"
+      },
+      {
+        "id": 19,
+        "name": "test",
+        "description": "test test",
+        "price": 100,
+        "image": "test",
+        "category": "test"
       }
-    ]
+    ],
+    "cart": []
   }
 }

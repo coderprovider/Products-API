@@ -1,16 +1,17 @@
 const express = require('express')
 const ctrl = require('./controllers/controller')
 const path = require('path')
+const morgan = require('morgan')
 
 const app = express()
 app.use(express.json())
+
+app.use(morgan('dev'))
 
 app.use(express.static(path.join(__dirname, '../swagger-ui/dist')))
 app.use('/products', express.static(path.join(__dirname, '../swagger-ui/dist')))
 
 app.get('/products/key', ctrl.getApiKey)
-
-app.get('/api/test', ctrl.test)
 
 app.use(ctrl.requireApiKey, ctrl.getUserProductAndCart)
 
