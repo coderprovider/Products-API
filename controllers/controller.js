@@ -11,7 +11,7 @@ module.exports = {
                 cart: [],
                 products: cloneDeep(products)
             }
-        return res.send({apiKey})
+        return res.send({key: apiKey})
     },
 
     requireApiKey: (req, res, next) => {
