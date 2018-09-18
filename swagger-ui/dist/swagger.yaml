@@ -17,7 +17,6 @@ tags:
   - name: "cart"
     description: "User cart operations"
 schemes:
-  - "https"
   - "http"
 paths:
   /key:
@@ -292,7 +291,7 @@ definitions:
     type: "object"
     properties:
       key:
-        type: "integer"
+        type: "string"
         example: "4f7f61fd"
   Product:
     type: "object"
