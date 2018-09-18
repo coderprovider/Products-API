@@ -100,9 +100,13 @@ module.exports = {
             req.cart[matchIndex].quantity++
         } else {
             let productToAdd = req.products.find( product => product.id === +id)
-            productToAdd = {...productToAdd}
-            productToAdd.quantity = 1;
-            req.cart.push(productToAdd)
+            if(productToAdd) {
+                productToAdd = {...productToAdd}
+                productToAdd.quantity = 1;
+                req.cart.push(productToAdd)
+            } else {
+                return res.status(404).send('Product not found in catalog')
+            }
         }
         return res.send(req.cart);
     },
@@ -149,7 +153,7 @@ module.exports = {
     },
 
     cartCheckout: (req, res) => {
-        req.cart = [];
+        req.cart.splice(0, req.cart.length);
         return res.send(req.cart);
     }
 }             
