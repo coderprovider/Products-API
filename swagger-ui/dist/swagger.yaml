@@ -7,7 +7,7 @@ info:
   license:
     name: "Apache 2.0"
     url: "http://www.apache.org/licenses/LICENSE-2.0.html"
-host: "products.devmountain.com"
+host: "http://104.248.178.153"
 basePath: "/products"
 tags:
   - name: "key"
@@ -17,13 +17,13 @@ tags:
   - name: "cart"
     description: "User cart operations"
 schemes:
-- "https"
-- "http"
+  - "https"
+  - "http"
 paths:
   /key:
     get:
       tags:
-      - "key"
+        - "key"
       summary: "Request an API key to interact with the other API endpoints"
       description: ""
       operationId: "getKey"
@@ -31,14 +31,14 @@ paths:
       # - "application/json"
       # - "application/xml"
       produces:
-      - "application/json"
-      # parameters:
-      # - in: "body"
-      #   name: "body"
-      #   description: "Pet object that needs to be added to the store"
-      #   required: true
-      #   schema:
-      #     $ref: "#/definitions/Pet"
+        - "application/json"
+        # parameters:
+        # - in: "body"
+        #   name: "body"
+        #   description: "Pet object that needs to be added to the store"
+        #   required: true
+        #   schema:
+        #     $ref: "#/definitions/Pet"
       responses:
         200:
           description: "successful"
@@ -48,38 +48,38 @@ paths:
   /catalog:
     get:
       tags:
-      - "products"
+        - "products"
       summary: "Retreives entire catalog of available products"
       description: ""
       operationId: "getProducts"
       produces:
-      - "application/json"
+        - "application/json"
       parameters:
-      - name: "key"
-        in: "query"
-        type: "string"
-        description: "API key"
-        required: true
-      - name: "min"
-        in: "query"
-        type: "string"
-        description: "Minimum price to filter by"
-        required: true
-      - name: "max"
-        in: "query"
-        type: "string"
-        description: "Maximum price to filter by"
-        required: true
-      - name: "name"
-        in: "query"
-        type: "string"
-        description: "Search term for product name"
-        required: true
-      - name: "category"
-        in: "query"
-        type: "string"
-        description: "Category to filter by"
-        required: true
+        - name: "key"
+          in: "query"
+          type: "string"
+          description: "API key"
+          required: true
+        - name: "min"
+          in: "query"
+          type: "string"
+          description: "Minimum price to filter by"
+          required: true
+        - name: "max"
+          in: "query"
+          type: "string"
+          description: "Maximum price to filter by"
+          required: true
+        - name: "name"
+          in: "query"
+          type: "string"
+          description: "Search term for product name"
+          required: true
+        - name: "category"
+          in: "query"
+          type: "string"
+          description: "Category to filter by"
+          required: true
       responses:
         200:
           description: "successful operation"
@@ -94,21 +94,21 @@ paths:
             example: "This request requires an API key"
     post:
       tags:
-      - "products"
+        - "products"
       summary: "Add a product to the catalog of available products"
       description: ""
       operationId: "newProduct"
       consumes:
-      - "application/json"
+        - "application/json"
       produces:
-      - "application/json"
+        - "application/json"
       parameters:
-      - in: "body"
-        name: "body"
-        description: "object with all properties of the product that you would like to add"
-        required: true
-        schema:
-          $ref: "#/definitions/ProductBody"
+        - in: "body"
+          name: "body"
+          description: "object with all properties of the product that you would like to add"
+          required: true
+          schema:
+            $ref: "#/definitions/ProductBody"
       responses:
         200:
           description: "successful operation"
@@ -126,20 +126,20 @@ paths:
   /cart:
     get:
       tags:
-      - "cart"
+        - "cart"
       summary: "Returns the content of the users cart"
       description: ""
       operationId: "getCart"
       # consumes:
       # - "application/json"
       produces:
-      - "application/json"
+        - "application/json"
       parameters:
-      - name: "key"
-        in: "query"
-        type: "string"
-        description: "API key"
-        required: true
+        - name: "key"
+          in: "query"
+          type: "string"
+          description: "API key"
+          required: true
       responses:
         200:
           description: "successful operation"
@@ -154,26 +154,26 @@ paths:
             example: "This request requires an API key"
     put:
       tags:
-      - "cart"
+        - "cart"
       summary: "Updates the quantity of a specific item in a cart based on the product ID"
       description: ""
       operationId: "updateQuantity"
       consumes:
-      - "application/json"
+        - "application/json"
       produces:
-      - "application/json"
+        - "application/json"
       parameters:
-      - name: "key"
-        in: "query"
-        type: "string"
-        description: "API key"
-        required: true
-      - in: "body"
-        name: "body"
-        description: "An object with the ID of a product in the cart and the quantity that should be updated for that product in the cart"
-        required: true
-        schema:
-          $ref: "#/definitions/UpdateQtyBody"
+        - name: "key"
+          in: "query"
+          type: "string"
+          description: "API key"
+          required: true
+        - in: "body"
+          name: "body"
+          description: "An object with the ID of a product in the cart and the quantity that should be updated for that product in the cart"
+          required: true
+          schema:
+            $ref: "#/definitions/UpdateQtyBody"
       responses:
         200:
           description: "successful operation"
@@ -190,27 +190,27 @@ paths:
             example: "This request requires an API key"
   /cart/{productId}:
     post:
-      tags: 
+      tags:
         - "cart"
       summary: "Adds an item to the user's cart based on the product ID"
       description: "If the item is not currently in the cart, it will add it to the cart. If the item is already in the cart, the quantity of that item will increase by 1."
       operationId: "addToCart"
       consumes:
-      - "application/json"
+        - "application/json"
       produces:
-      - "application/json"
+        - "application/json"
       parameters:
-      - name: "key"
-        in: "query"
-        type: "string"
-        description: "API key"
-        required: true
-      - name: "productId"
-        in: "path"
-        description: "ID of the product to add to the cart"
-        required: true
-        type: "integer"
-        format: "int64"
+        - name: "key"
+          in: "query"
+          type: "string"
+          description: "API key"
+          required: true
+        - name: "productId"
+          in: "path"
+          description: "ID of the product to add to the cart"
+          required: true
+          type: "integer"
+          format: "int64"
       responses:
         200:
           description: "successful operation"
@@ -224,27 +224,27 @@ paths:
             type: "string"
             example: "This request requires an API key"
     delete:
-      tags: 
+      tags:
         - "cart"
       summary: "Removes an item to the user's cart based on the product ID"
       description: ""
       operationId: "deleteFromCart"
       consumes:
-      - "application/json"
+        - "application/json"
       produces:
-      - "application/json"
+        - "application/json"
       parameters:
-      - name: "key"
-        in: "query"
-        type: "string"
-        description: "API key"
-        required: true
-      - name: "productId"
-        in: "path"
-        description: "ID of the product to add to the cart"
-        required: true
-        type: "integer"
-        format: "int64"
+        - name: "key"
+          in: "query"
+          type: "string"
+          description: "API key"
+          required: true
+        - name: "productId"
+          in: "path"
+          description: "ID of the product to add to the cart"
+          required: true
+          type: "integer"
+          format: "int64"
       responses:
         200:
           description: "successful operation"
@@ -259,21 +259,21 @@ paths:
             example: "This request requires an API key"
   /cart/checkout:
     delete:
-      tags: 
+      tags:
         - "cart"
       summary: "Removes all items from the user's cart"
       description: ""
       operationId: "cartCheckout"
       consumes:
-      - "application/json"
+        - "application/json"
       produces:
-      - "application/json"
+        - "application/json"
       parameters:
-      - name: "key"
-        in: "query"
-        type: "string"
-        description: "API key"
-        required: true
+        - name: "key"
+          in: "query"
+          type: "string"
+          description: "API key"
+          required: true
       responses:
         200:
           description: "successful operation"
@@ -286,7 +286,7 @@ paths:
           schema:
             type: "string"
             example: "This request requires an API key"
-    
+
 definitions:
   Key:
     type: "object"
@@ -339,7 +339,7 @@ definitions:
       quantity:
         type: "string"
         example: 5
-        
+
   UpdateQtyBodyResponse:
     type: "object"
     properties:
@@ -376,11 +376,10 @@ definitions:
       price:
         type: "number"
         example: 24.99
-      quantity: 
+      quantity:
         type: "integer"
         format: "int64"
         example: 1
       image:
         type: "string"
         example: http://image.com/bikehelmet.png
-
