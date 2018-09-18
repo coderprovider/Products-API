@@ -2,9 +2,11 @@ const express = require('express')
 const ctrl = require('./controllers/controller')
 const path = require('path')
 const morgan = require('morgan')
+const cors = require('cors')
 
 const app = express()
 app.use(express.json())
+app.use(cors())
 
 app.use(morgan('dev'))
 
