@@ -1,0 +1,321 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Mountains Baseball Cap",
+      "desc": "Solid Black",
+      "category": "hat",
+      "price": 45,
+      "image": "https://firebasestorage.googleapis.com/v0/b/firebase-dev-assessment.appspot.com/o/products%2Fhat-1.jpg?alt=media&token=af7620f5-e9a1-4108-939c-472c48307528",
+      "company": "DevMountain"
+    },
+    {
+      "id": 2,
+      "title": "Mountains Baseball Capp",
+      "desc": "Red",
+      "category": "hat",
+      "price": 45,
+      "image": "https://firebasestorage.googleapis.com/v0/b/firebase-dev-assessment.appspot.com/o/products%2Fhat-2.jpg?alt=media&token=7401ac35-408b-4f10-8749-3dd6378f4198",
+      "company": "DevMountain"
+    },
+    {
+      "id": 3,
+      "title": "Combo T-shirt Set",
+      "desc": "Combo",
+      "category": "shirt",
+      "price": 55,
+      "image": "https://firebasestorage.googleapis.com/v0/b/firebase-dev-assessment.appspot.com/o/products%2Fcombo-tee.jpg?alt=media&token=068eefa0-d83f-497f-9809-5d0272a1639d",
+      "company": "DevMountain"
+    },
+    {
+      "id": 4,
+      "title": "Ripple Effect",
+      "desc": "Blue",
+      "category": "shirt",
+      "price": 25,
+      "image": "https://firebasestorage.googleapis.com/v0/b/firebase-dev-assessment.appspot.com/o/products%2Fshirt-1.jpeg?alt=media&token=0fbf36a3-a477-49f7-aa99-2bdb1030c449",
+      "company": "DevMountain"
+    },
+    {
+      "id": 5,
+      "title": "Two T Shirt Set",
+      "desc": "Two-Pack",
+      "category": "shirt",
+      "price": 33,
+      "image": "https://firebasestorage.googleapis.com/v0/b/firebase-dev-assessment.appspot.com/o/products%2Fshirt-3.jpeg?alt=media&token=4dec772a-65ec-481b-bc60-a7c80f5b2c38",
+      "company": "DevMountain"
+    },
+    {
+      "id": 6,
+      "title": "Black T Shirt",
+      "desc": "Moon",
+      "category": "shirt",
+      "price": 25,
+      "image": "https://firebasestorage.googleapis.com/v0/b/firebase-dev-assessment.appspot.com/o/products%2Fshirt-4.jpeg?alt=media&token=1e1b81c8-a24f-4d34-85e4-153e4d00470e",
+      "company": "DevMountain"
+    },
+    {
+      "id": 7,
+      "title": "Momentum",
+      "desc": "Rings",
+      "category": "shirt",
+      "price": 24,
+      "image": "https://firebasestorage.googleapis.com/v0/b/firebase-dev-assessment.appspot.com/o/products%2Fshirt-5.jpeg?alt=media&token=c27be083-eb5b-4a1f-98be-780f234fb5ce",
+      "company": "DevMountain"
+    },
+    {
+      "id": 8,
+      "title": "Socks",
+      "desc": "Foot/ankle warming technology",
+      "category": "swag",
+      "price": 5,
+      "image": "https://assets.bigcartel.com/product_images/215231464/IMG_1957.JPG?auto=format&fit=max&w=780",
+      "company": "DevMountain"
+    },
+    {
+      "id": 9,
+      "title": "DM Logo Dad Hat - Blue",
+      "desc": "A head covering that blocks the sun",
+      "category": "hat",
+      "price": 15,
+      "image": "https://assets.bigcartel.com/product_images/212438563/IMG_1263.JPG?auto=format&fit=max&w=780",
+      "company": "DevMountain"
+    },
+    {
+      "id": 10,
+      "title": "DM Logo Dad Hat - Black",
+      "desc": "Another head covering that blocks the sun",
+      "category": "hat",
+      "price": 15,
+      "image": "https://assets.bigcartel.com/product_images/215232499/IMG_1964.JPG?auto=format&fit=max&w=780",
+      "company": "DevMountain"
+    },
+    {
+      "id": 11,
+      "title": "DM Logo Lanyard",
+      "desc": "Keys with a tail are harder to lose.",
+      "category": "swag",
+      "price": 2,
+      "image": "https://assets.bigcartel.com/product_images/192866269/devmtnshop_%2821_of_25%29.jpg?auto=format&fit=max&w=780",
+      "company": "DevMountain"
+    },
+    {
+      "id": 12,
+      "title": "DM Logo Beanie - Gray & Black",
+      "desc": "A warmer head covering when the dad hat just isn't cutting it.",
+      "price": 10,
+      "category": "cold weather",
+      "image": "https://assets.bigcartel.com/product_images/212403763/IMG_2492+_1_.jpg?auto=format&fit=max&w=780",
+      "company": "DevMountain"
+    },
+    {
+      "id": 13,
+      "title": "DevMountain Unisex Hoodie Charcoal Grey",
+      "desc": "A warm zip up sweatshirt with a hood.",
+      "category": "cold weather",
+      "price": 30,
+      "image": "https://assets.bigcartel.com/product_images/223162915/IMG_5913.JPG?auto=format&fit=max&w=780",
+      "company": "DevMountain"
+    },
+    {
+      "id": 14,
+      "title": "DevMountain Tee - Men's Tri-Black",
+      "desc": "A soft t-shirt for comfortable coding.",
+      "category": "shirt",
+      "price": 12,
+      "image": "https://assets.bigcartel.com/product_images/154156375/2015-03-10_13.57.18.jpg?auto=format&fit=max&w=780",
+      "company": "DevMountain"
+    },
+    {
+      "id": 15,
+      "title": "DevMountain Tee - Women's Tri-Black",
+      "desc": "A soft t-shirt for comfortable coding.",
+      "category": "shirt",
+      "price": 12,
+      "image": "https://assets.bigcartel.com/product_images/192866692/devmtnshop_%2823_of_25%29.jpg?auto=format&fit=max&w=780",
+      "company": "DevMountain"
+    },
+    {
+      "id": 16,
+      "title": "DevMountain Bottle - Aluminium Insulated",
+      "desc": "A hydration container for those tough hacking sessions.",
+      "category": "swag",
+      "price": 12,
+      "image": "https://assets.bigcartel.com/product_images/166717411/waterbottle_copy.JPG?auto=format&fit=max&w=780",
+      "company": "DevMountain"
+    }
+  ],
+  "e4cfeda5": {
+    "products": [
+      {
+        "id": 1,
+        "title": "Mountains Baseball Cap",
+        "desc": "Solid Black",
+        "category": "hat",
+        "price": 45,
+        "image": "https://firebasestorage.googleapis.com/v0/b/firebase-dev-assessment.appspot.com/o/products%2Fhat-1.jpg?alt=media&token=af7620f5-e9a1-4108-939c-472c48307528",
+        "company": "DevMountain"
+      },
+      {
+        "id": 2,
+        "title": "Mountains Baseball Capp",
+        "desc": "Red",
+        "category": "hat",
+        "price": 45,
+        "image": "https://firebasestorage.googleapis.com/v0/b/firebase-dev-assessment.appspot.com/o/products%2Fhat-2.jpg?alt=media&token=7401ac35-408b-4f10-8749-3dd6378f4198",
+        "company": "DevMountain"
+      },
+      {
+        "id": 3,
+        "title": "Combo T-shirt Set",
+        "desc": "Combo",
+        "category": "shirt",
+        "price": 55,
+        "image": "https://firebasestorage.googleapis.com/v0/b/firebase-dev-assessment.appspot.com/o/products%2Fcombo-tee.jpg?alt=media&token=068eefa0-d83f-497f-9809-5d0272a1639d",
+        "company": "DevMountain"
+      },
+      {
+        "id": 4,
+        "title": "Ripple Effect",
+        "desc": "Blue",
+        "category": "shirt",
+        "price": 25,
+        "image": "https://firebasestorage.googleapis.com/v0/b/firebase-dev-assessment.appspot.com/o/products%2Fshirt-1.jpeg?alt=media&token=0fbf36a3-a477-49f7-aa99-2bdb1030c449",
+        "company": "DevMountain"
+      },
+      {
+        "id": 5,
+        "title": "Two T Shirt Set",
+        "desc": "Two-Pack",
+        "category": "shirt",
+        "price": 33,
+        "image": "https://firebasestorage.googleapis.com/v0/b/firebase-dev-assessment.appspot.com/o/products%2Fshirt-3.jpeg?alt=media&token=4dec772a-65ec-481b-bc60-a7c80f5b2c38",
+        "company": "DevMountain"
+      },
+      {
+        "id": 6,
+        "title": "Black T Shirt",
+        "desc": "Moon",
+        "category": "shirt",
+        "price": 25,
+        "image": "https://firebasestorage.googleapis.com/v0/b/firebase-dev-assessment.appspot.com/o/products%2Fshirt-4.jpeg?alt=media&token=1e1b81c8-a24f-4d34-85e4-153e4d00470e",
+        "company": "DevMountain"
+      },
+      {
+        "id": 7,
+        "title": "Momentum",
+        "desc": "Rings",
+        "category": "shirt",
+        "price": 24,
+        "image": "https://firebasestorage.googleapis.com/v0/b/firebase-dev-assessment.appspot.com/o/products%2Fshirt-5.jpeg?alt=media&token=c27be083-eb5b-4a1f-98be-780f234fb5ce",
+        "company": "DevMountain"
+      },
+      {
+        "id": 8,
+        "title": "Socks",
+        "desc": "Foot/ankle warming technology",
+        "category": "swag",
+        "price": 5,
+        "image": "https://assets.bigcartel.com/product_images/215231464/IMG_1957.JPG?auto=format&fit=max&w=780",
+        "company": "DevMountain"
+      },
+      {
+        "id": 9,
+        "title": "DM Logo Dad Hat - Blue",
+        "desc": "A head covering that blocks the sun",
+        "category": "hat",
+        "price": 15,
+        "image": "https://assets.bigcartel.com/product_images/212438563/IMG_1263.JPG?auto=format&fit=max&w=780",
+        "company": "DevMountain"
+      },
+      {
+        "id": 10,
+        "title": "DM Logo Dad Hat - Black",
+        "desc": "Another head covering that blocks the sun",
+        "category": "hat",
+        "price": 15,
+        "image": "https://assets.bigcartel.com/product_images/215232499/IMG_1964.JPG?auto=format&fit=max&w=780",
+        "company": "DevMountain"
+      },
+      {
+        "id": 11,
+        "title": "DM Logo Lanyard",
+        "desc": "Keys with a tail are harder to lose.",
+        "category": "swag",
+        "price": 2,
+        "image": "https://assets.bigcartel.com/product_images/192866269/devmtnshop_%2821_of_25%29.jpg?auto=format&fit=max&w=780",
+        "company": "DevMountain"
+      },
+      {
+        "id": 12,
+        "title": "DM Logo Beanie - Gray & Black",
+        "desc": "A warmer head covering when the dad hat just isn't cutting it.",
+        "price": 10,
+        "category": "cold weather",
+        "image": "https://assets.bigcartel.com/product_images/212403763/IMG_2492+_1_.jpg?auto=format&fit=max&w=780",
+        "company": "DevMountain"
+      },
+      {
+        "id": 13,
+        "title": "DevMountain Unisex Hoodie Charcoal Grey",
+        "desc": "A warm zip up sweatshirt with a hood.",
+        "category": "cold weather",
+        "price": 30,
+        "image": "https://assets.bigcartel.com/product_images/223162915/IMG_5913.JPG?auto=format&fit=max&w=780",
+        "company": "DevMountain"
+      },
+      {
+        "id": 14,
+        "title": "DevMountain Tee - Men's Tri-Black",
+        "desc": "A soft t-shirt for comfortable coding.",
+        "category": "shirt",
+        "price": 12,
+        "image": "https://assets.bigcartel.com/product_images/154156375/2015-03-10_13.57.18.jpg?auto=format&fit=max&w=780",
+        "company": "DevMountain"
+      },
+      {
+        "id": 15,
+        "title": "DevMountain Tee - Women's Tri-Black",
+        "desc": "A soft t-shirt for comfortable coding.",
+        "category": "shirt",
+        "price": 12,
+        "image": "https://assets.bigcartel.com/product_images/192866692/devmtnshop_%2823_of_25%29.jpg?auto=format&fit=max&w=780",
+        "company": "DevMountain"
+      },
+      {
+        "id": 16,
+        "title": "DevMountain Bottle - Aluminium Insulated",
+        "desc": "A hydration container for those tough hacking sessions.",
+        "category": "swag",
+        "price": 12,
+        "image": "https://assets.bigcartel.com/product_images/166717411/waterbottle_copy.JPG?auto=format&fit=max&w=780",
+        "company": "DevMountain"
+      },
+      {
+        "id": 17,
+        "name": "test",
+        "description": "test test",
+        "price": 100,
+        "image": "test",
+        "category": "test"
+      },
+      {
+        "id": 18,
+        "name": "test",
+        "description": "test test",
+        "price": 100,
+        "image": "test",
+        "category": "test"
+      },
+      {
+        "id": 19,
+        "name": "test",
+        "description": "test test",
+        "price": 100,
+        "image": "test",
+        "category": "test"
+      }
+    ],
+    "cart": []
+  }
+}
