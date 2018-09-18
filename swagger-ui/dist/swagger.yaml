@@ -1,6 +1,6 @@
 swagger: "2.0"
 info:
-  description: "This is an example API of DevMountain Products"
+  description: "This is an example API of DevMountain Products. Request an API key from the /key endpoint. All other endpoints require the key to be sent as a query string parameter for authorization."
   version: "1.0.0"
   title: "DevMountain Products"
   termsOfService: "http://swagger.io/terms/"
