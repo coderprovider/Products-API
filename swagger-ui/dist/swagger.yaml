@@ -291,8 +291,8 @@ definitions:
   Key:
     type: "object"
     properties:
-      key:
-        type: "integer"
+      apiKey:
+        type: "string"
         example: "4f7f61fd"
   Product:
     type: "object"
