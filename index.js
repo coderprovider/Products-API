@@ -8,8 +8,8 @@ app.use(express.json())
 
 app.use(morgan('dev'))
 
-app.use(express.static(path.join(__dirname, '../swagger-ui/dist')))
-app.use('/products', express.static(path.join(__dirname, '../swagger-ui/dist')))
+app.use(express.static(path.join(__dirname, './swagger-ui/dist')))
+app.use('/products', express.static(path.join(__dirname, './swagger-ui/dist')))
 
 app.get('/products/key', ctrl.getApiKey)
 
