@@ -17,7 +17,7 @@ tags:
   - name: 'cart'
     description: 'User cart operations'
 schemes:
-  - 'http'
+  - 'https'
 paths:
   /key:
     get:
